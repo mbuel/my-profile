@@ -1,2 +1,4 @@
 # my-profile
-personal profile page
+Personal profile page
+
+Will have links to completed projects and their source code.
