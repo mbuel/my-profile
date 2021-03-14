@@ -1,0 +1,20 @@
+body {
+    /* set custom font here */
+}
+
+#logo {
+    background-image: url('../images/profile-logo.png');
+    display: block;
+    width: 64px;
+    height: 64px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.nav-container {
+    width: 100%;
+    margin: 10px 60px 0 60px;
+}
+.navigation {
+    float: right;
+}
