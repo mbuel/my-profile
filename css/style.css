@@ -18,3 +18,21 @@ body {
 .navigation {
     float: right;
 }
+
+#work-history {
+    background-color: aquamarine;
+    width:100%;
+    height: 640px;
+}
+
+#personal-projects {
+    background-color: salmon;
+    width:100%;
+    height: 640px;
+}
+
+#school-projects {
+    background-color: chocolate;
+    width:100%;
+    height: 640px;
+}
