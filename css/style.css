@@ -24,6 +24,9 @@ body {
 }
 
 .name {
+    position: relative;
+    left: 65px;
+    top: -23px;
   padding-top: 12px;
 }
 
@@ -68,6 +71,8 @@ a:hover {
 }
 
 #logo {
+    position:relative;
+    top: 30px;
   background-image: url("../images/profile-logo.png");
   display: block;
   width: 48px;
@@ -78,7 +83,7 @@ a:hover {
 
 .navigation {
     float: right;
-    margin: 10px 60px 0 60px;
+    margin: 30px 60px 0 60px;
 }
 
 #work-history {
@@ -194,4 +199,32 @@ footer {
     background-color: var(--rgba-bottom-color-1-0);
     color: white;
     text-align: center;
+}
+
+#about-me {
+    background-color: var(--rgba-secondary-1-0);
+    background-image: linear-gradient(
+      to bottom,
+      var(--rgba-primary-0),
+      var(--rgba-secondary-1-0)
+    );
+    position:fixed;
+    top: 80px;
+    padding-top: 60px;
+    left: 0px;
+    height:100%;
+    width: 100%;
+    color:black;
+    float: right;
+    z-index: 10;
+    text-align: center;
+}
+
+.profileImage {
+	height: 317px;
+	width: 250px;
+	padding-bottom: 0;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 0;
 }
