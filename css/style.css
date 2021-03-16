@@ -89,7 +89,6 @@ a:hover {
 #work-history {
     padding: 90px 60px 60px 60px;
   position: relative;
-  top: 80px;
   background-color: var(--rgba-secondary-2-0);
   background-image: linear-gradient(
     to bottom,
