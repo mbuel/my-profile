@@ -163,6 +163,45 @@ a:hover {
   padding-right: 18px;
   scrollbar-color: teal;
 }
+footer {
+    background-color: var(--rgba-bottom-color-1-0);
+    color: white;
+    text-align: center;
+}
+
+#about-me {
+    background-color: var(--rgba-secondary-1-0);
+    background-image: linear-gradient(
+      to bottom,
+      var(--rgba-primary-0),
+      var(--rgba-secondary-1-0)
+    );
+    position:fixed;
+    top: 80px;
+    padding-top: 60px;
+    left: 0px;
+    height:100%;
+    width: 100%;
+    color:black;
+    float: right;
+    z-index: 10;
+    text-align: center;
+}
+#profile {
+    position: relative;
+    left: 10px;
+    top: -10px;
+}
+.profileImage {
+    margin-left: 20%;
+	height: 317px;
+	width: 250px;
+	padding-bottom: 0;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 0;
+    transition: width 1s;
+}
 
 .projectImage {
   padding-top: calc(3 / 4 * 100%);
@@ -178,6 +217,7 @@ a:hover {
   background-position: center;
   margin-bottom: 0;
   padding-top: calc(height / 2);
+ 
 }
 
 /* media queries */
@@ -205,41 +245,10 @@ a:hover {
         top: -17px;
         right: -85px;
     }
+    .profileImage {
+        width: 150px;
+        height: 200px;
+    }
 }
 
-footer {
-    background-color: var(--rgba-bottom-color-1-0);
-    color: white;
-    text-align: center;
-}
 
-#about-me {
-    background-color: var(--rgba-secondary-1-0);
-    background-image: linear-gradient(
-      to bottom,
-      var(--rgba-primary-0),
-      var(--rgba-secondary-1-0)
-    );
-    position:fixed;
-    top: 80px;
-    padding-top: 60px;
-    left: 0px;
-    height:100%;
-    width: 100%;
-    color:black;
-    float: right;
-    z-index: 10;
-    text-align: center;
-}
-#profile {
-    left: 10px;
-}
-.profileImage {
-    margin-left: 25%;
-	height: 317px;
-	width: 250px;
-	padding-bottom: 0;
-	background-size: cover;
-	background-position: center;
-	margin-bottom: 0;
-}
