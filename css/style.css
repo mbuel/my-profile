@@ -90,11 +90,11 @@ a:hover {
     padding: 90px 60px 60px 60px;
   position: relative;
   top: 80px;
-  background-color: var(--rgba-secondary-1-0);
+  background-color: var(--rgba-secondary-2-0);
   background-image: linear-gradient(
     to bottom,
-    var(--rgba-primary-0),
-    var(--rgba-secondary-1-0)
+    var(--rgba-secondary-2-0),
+    var(--rgba-bottom-color-1-0)
   );
   width: 100%;
   height: 720px;
@@ -116,12 +116,13 @@ a:hover {
 #school-projects {
     padding: 90px 60px 60px 60px;
     position: relative;
-    background-color: var(--rgba-secondary-2-0);
+    background-color: var(--rgba-secondary-1-0);
     background-image: linear-gradient(
       to bottom,
-      var(--rgba-secondary-2-0),
-      var(--rgba-bottom-color-1-0)
+      var(--rgba-primary-0),
+      var(--rgba-secondary-1-0)
     );
+
     width: 100%;
     height: 720px;
 }
