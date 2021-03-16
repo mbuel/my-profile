@@ -27,7 +27,7 @@ body {
     position: relative;
     left: 65px;
     top: -23px;
-  padding-top: 12px;
+    padding-top: 12px;
 }
 
 #nav-bar {
@@ -229,6 +229,8 @@ footer {
 	margin-bottom: 0;
 }
 .social-links {
-    padding-top: 13px;
     padding-right: 15px;
+    position: relative;
+    left: 65px;
+    top: 40px;
 }
