@@ -23,13 +23,6 @@ body {
     padding: 0;
 }
 
-.name {
-    position: relative;
-    left: 65px;
-    top: -23px;
-    padding-top: 12px;
-}
-
 #nav-bar {
   width: 100%;
   top: 0px;
@@ -72,13 +65,27 @@ a:hover {
 
 #logo {
     position:relative;
-    top: 30px;
+    top: 10px;
   background-image: url("../images/profile-logo.png");
   display: block;
   width: 48px;
   height: 48px;
   -o-object-fit: scale-down;
   object-fit: scale-down;
+}
+
+.name {
+    position: relative;
+    left: 65px;
+    top: -43px;
+    padding-top: 12px;
+}
+
+.social-links {
+    padding-right: 15px;
+    position: relative;
+    left: 65px;
+    top: 20px;
 }
 
 .navigation {
@@ -156,45 +163,6 @@ a:hover {
   padding-right: 18px;
   scrollbar-color: teal;
 }
-
-.projectImage {
-  padding-top: calc(3 / 4 * 100%);
-  background-image: url("../images/placeholder.png");
-  color: black;
-  background-color: darkslategray;
-  border: 1px black solid;
-  border-bottom: none;
-  height: 250px;
-  width: 333px;
-  padding-bottom: 0;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 0;
-  padding-top: calc(height / 2);
-}
-
-/* media queries */
-@media only screen and (max-width: 992px) {
-	.collapse {
-        background-color: var(--rgba-secondary-1-0);
-        background-image: linear-gradient(
-          to bottom,
-          var(--rgba-primary-0),
-          var(--rgba-secondary-1-0)
-        );
-        position:fixed;
-        top: 80px;
-        padding-top: 60px;
-        left: 0px;
-        height:100%;
-        width: 100%;
-		color:black;
-		float: right;
-        z-index: 10;
-        text-align: center;
-    }
-}
-
 footer {
     background-color: var(--rgba-bottom-color-1-0);
     color: white;
@@ -219,18 +187,68 @@ footer {
     z-index: 10;
     text-align: center;
 }
-
+#profile {
+    position: relative;
+    left: 10px;
+    top: -10px;
+}
 .profileImage {
+    margin-left: 20%;
 	height: 317px;
 	width: 250px;
 	padding-bottom: 0;
 	background-size: cover;
 	background-position: center;
 	margin-bottom: 0;
+    transition: width 1s;
 }
-.social-links {
-    padding-right: 15px;
-    position: relative;
-    left: 65px;
-    top: 40px;
+
+.projectImage {
+  padding-top: calc(3 / 4 * 100%);
+  background-image: url("../images/placeholder.png");
+  color: black;
+  background-color: darkslategray;
+  border: 1px black solid;
+  border-bottom: none;
+  height: 250px;
+  width: 333px;
+  padding-bottom: 0;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  padding-top: calc(height / 2);
+ 
 }
+
+/* media queries */
+@media only screen and (max-width: 992px) {
+	.collapse {
+        background-color: var(--rgba-secondary-1-0);
+        background-image: linear-gradient(
+          to bottom,
+          var(--rgba-primary-0),
+          var(--rgba-secondary-1-0)
+        );
+        position:fixed;
+        top: 80px;
+        padding-top: 60px;
+        left: 0px;
+        height:100%;
+        width: 100%;
+		color:black;
+		float: right;
+        z-index: 10;
+        text-align: center;
+    }
+    #menu-icon {
+        position:relative;
+        top: -17px;
+        right: -85px;
+    }
+    .profileImage {
+        width: 150px;
+        height: 200px;
+    }
+}
+
+
